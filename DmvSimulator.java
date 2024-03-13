@@ -22,10 +22,11 @@ System.out.println("Your number is: " + userNumber + ". Please wait until your n
         currentNumber = userNumber % 100 + 1;
         while (currentNumber != userNumber) {
             System.out.println("Now serving number: " + currentNumber);
-            currentNumber = (currentNumber % 100) + 1; // Wrapping around to 1 if currentNumber equals 100
+            //Going to the number right after user number so it wraps around
+            currentNumber = (currentNumber % 100) + 1;
         }
 
-        // Notifying the user about the paperwork
+        //Printing out the numbers of the user 
         System.out.println("Your number " + userNumber + " is called. Please proceed to the counter.");
         System.out.println("Sorry, you don't have the required paperwork.");
 }
