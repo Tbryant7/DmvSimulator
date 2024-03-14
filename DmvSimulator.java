@@ -28,6 +28,6 @@ System.out.println("Your number is: " + userNumber + ". Please wait until your n
 
         //Printing out the numbers of the user 
         System.out.println("Your number " + userNumber + " is called. Please proceed to the counter.");
-        System.out.println("Sorry, you don't have the required paperwork.");
+        System.out.println("What are you thinking, dont ever come back until you actually know what your doing, you never had the required paperwork WHAT are you thinking?!??");
 }
 }
