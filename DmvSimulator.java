@@ -26,8 +26,17 @@ System.out.println("Your number is: " + userNumber + ". Please wait until your n
             currentNumber = (currentNumber % 200) + 1;
         }
 
+        boolean hasRequiredPaperwork = random.nextDouble() < 0.01;
+
+        if (hasRequiredPaperwork) {
+            System.out.println("Your number " + userNumber + " is called. Please proceed to the counter.");
+            System.out.println("You have all the paperwork. You are all set");
+    
+        } else{
+
         //Printing out the numbers of the user 
         System.out.println("Your number " + userNumber + " is called. Please proceed to the counter.");
         System.out.println("What are you thinking, dont ever come back until you actually know what your doing, you never had the required paperwork WHAT are you thinking?!??");
+        }
 }
 }
